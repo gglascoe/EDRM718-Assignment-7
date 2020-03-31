@@ -1,0 +1,8 @@
+"0","largest.residuals <- function(x, y, p) {"
+"0","  res <- lm(y~x)"
+"0","  res$residuals <- abs(results$residuals)"
+"0","  res.sort <- sort(results$resiudals, decreasing = FALSE)"
+"0","  cutoff <- res.sort[p]"
+"0","  logical.res <- (res$residuals >= cutoff)"
+"0","  return(logical.res)"
+"0","}"
