@@ -1,0 +1,6 @@
+"0","high_residual <- largest_residuals(hsb$ses, hsb$math, 22)"
+"0","plot(hsb$read, hsb$ses, "
+"0","     main = ""Relationship that student's SES has on reading scores"","
+"0","     xlab = ""Reading"","
+"0","     ylab = ""SES"","
+"0","     col = ifelse(high_residual, ""blue"", ""black""))"
